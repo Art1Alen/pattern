@@ -2,7 +2,10 @@
 {
     internal sealed class Asteroid : Enemy
     {
+         void Health()
+        {
 
+        }
     }
 }
 

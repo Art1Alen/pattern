@@ -39,7 +39,7 @@ namespace Asteroids
                 _ship.RemoveAcceleration();
             }
 
-            if (Input.GetButtonDown("Fire"))
+            if (Input.GetMouseButtonDown(0))
             {
                 var temAmmunition = Instantiate(_bullet, _barrel.position, _barrel.rotation);
                 temAmmunition.AddForce(_barrel.up * _force);
